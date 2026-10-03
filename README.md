@@ -18,7 +18,7 @@ Get the latest Windows 64-bit version from [Releases](https://github.com/YinHang
 - **Saved settings:** restore your last ON/OFF choice, mode, and interval. First launch defaults to OFF.
 - **Start with Windows:** optional startup at sign-in, minimized to the tray. Disabled by default; no administrator rights required.
 
-Automatic pauses preserve your ON/OFF choice. Turning OFF while paused prevents automatic resumption. Windows power settings determine whether the computer actually sleeps when you close the lid.
+Automatic pauses preserve your ON/OFF choice. Turning OFF while paused prevents automatic resumption. Windows power settings determine whether the computer actually sleeps when you close the lid. On Modern Standby (S0) laptops, background activity can continue during sleep; FocusKeeper does not change the system's sleep mode.
 
 ## Usage
 
@@ -31,6 +31,8 @@ The tray icon is green when active and red when OFF or paused. The window shows 
 ## Updating or Moving the App
 
 Choose **Exit** from the tray before replacing the app files. Download the new ZIP and extract the entire folder. Your settings are retained in `%APPDATA%\FocusKeeper\config.json`.
+
+The window title and tray tooltip show the running version, starting with v1.2.1. Check them after updating to confirm the new copy is running.
 
 If the app's location changes, launch it from the new folder and turn **Start with Windows** off and on again to update its startup path.
 
