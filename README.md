@@ -6,9 +6,9 @@ A lightweight Windows utility that keeps your system active when idle by simulat
 
 Get the latest Windows 64-bit version from [Releases](https://github.com/YinHang2515/easykeepfocus-releases/releases/latest).
 
-1. Download `EasyKeepFocus-vX.Y.Z-win64.zip`.
-2. Extract the entire ZIP into a permanent folder, such as `C:\Tools\EasyKeepFocus`. Keep `EasyKeepFocus.exe` and its accompanying files together.
-3. Run `EasyKeepFocus.exe`. No Python installation is required.
+1. Download `EasyKeepFocus.exe`.
+2. Save it in a permanent folder, such as `C:\Tools\EasyKeepFocus`.
+3. Double-click `EasyKeepFocus.exe`. Everything needed to run the app is included; no Python installation is required.
 
 ## Features
 
@@ -46,11 +46,11 @@ The tray icon is green when active and red when OFF or paused. **Details…** sh
 
 ## Updating or Moving the App
 
-EasyKeepFocus was formerly named FocusKeeper. Choose **Exit** from the existing tray icon before replacing the app files. Download the new ZIP, extract the entire folder, and run `EasyKeepFocus.exe`. The new app cannot start while an older copy is still running.
+EasyKeepFocus was formerly named FocusKeeper. Choose **Exit** from the existing tray icon before updating, including when upgrading from an older folder-based release. Download the new `EasyKeepFocus.exe`, save it in your chosen app folder, and run it. The new app cannot start while an older copy is still running.
 
 All installations retain the legacy `%APPDATA%\FocusKeeper` data folder. Version 1.4.0 imports an existing daily enable schedule with **Enable at** checked and **Disable at** unchecked. Your settings and lid-policy recovery records stay in place; older versions do not support the new pair of ON/OFF schedules.
 
-The first launch after upgrading updates an existing **Start with Windows** registration to launch the new app. Startup that was disabled stays disabled.
+An existing **Start with Windows** entry from the former app name is updated when you first run the new app. Startup that was disabled stays disabled.
 
 The window title and tray tooltip show the running version, starting with v1.2.1. Check them after updating to confirm the new copy is running.
 
