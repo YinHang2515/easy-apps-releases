@@ -8,7 +8,9 @@ Get the latest Windows 64-bit version from [Releases](https://github.com/YinHang
 
 1. Download `EasyKeepFocus.exe`.
 2. Save it in a permanent folder, such as `C:\Tools\EasyKeepFocus`.
-3. Double-click `EasyKeepFocus.exe`. Everything needed to run the app is included; no Python installation is required.
+3. Double-click `EasyKeepFocus.exe`. The Python runtime is included.
+
+The single-file package extracts runtime libraries to a temporary folder. Windows Application Control policies that block loading those libraries can cause startup to fail with `0xc0e90002`. If this occurs, contact your device administrator to confirm an approved deployment method.
 
 ## Features
 
