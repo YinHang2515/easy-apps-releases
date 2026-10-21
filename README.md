@@ -7,7 +7,7 @@ Official Windows downloads and user guides for **EasyClick** and **EasyKeepFocus
 | App | Latest product release | Windows x64 download | User guide |
 | --- | --- | --- | --- |
 | **EasyClick** | [v0.2.0](https://github.com/YinHang2515/easy-apps-releases/releases/tag/easyclick-v0.2.0) | [EXE](https://github.com/YinHang2515/easy-apps-releases/releases/download/easyclick-v0.2.0/EasyClick.exe) / [ZIP](https://github.com/YinHang2515/easy-apps-releases/releases/download/easyclick-v0.2.0/EasyClick-0.2.0-win-x64.zip) | [EasyClick guide](apps/easyclick/README.md) |
-| **EasyKeepFocus** | [v1.4.2](https://github.com/YinHang2515/easy-apps-releases/releases/tag/v1.4.2) | [Portable ZIP](https://github.com/YinHang2515/easy-apps-releases/releases/download/v1.4.2/EasyKeepFocus-v1.4.2-win64.zip) | [EasyKeepFocus guide](apps/easykeepfocus/README.md) |
+| **EasyKeepFocus** | [v1.5.0](https://github.com/YinHang2515/easy-apps-releases/releases/tag/easykeepfocus-v1.5.0) | [Portable ZIP](https://github.com/YinHang2515/easy-apps-releases/releases/download/easykeepfocus-v1.5.0/EasyKeepFocus-v1.5.0-win64.zip) | [EasyKeepFocus guide](apps/easykeepfocus/README.md) |
 
 Use the link for your app. The shared Releases page contains versions of both products.
 
@@ -21,9 +21,9 @@ Download `EasyClick.exe` and run it. No installer or separate .NET runtime is re
 
 ## EasyKeepFocus
 
-Keep your Windows session active with configurable idle-time mouse clicks or keystrokes. Optional lid keep-awake controls and daily ON/OFF schedules are available.
+Keep your Windows session active with configurable idle-time mouse clicks or keystrokes. Simulated input pauses while Windows reports video or audio playback. Optional lid keep-awake controls and daily ON/OFF schedules are available.
 
-Extract the **entire** `EasyKeepFocus-v1.4.2-win64.zip` archive, then run `EasyKeepFocus.exe` from the extracted app folder. Keep the EXE and `_internal` folder together. No Python installation is required. The release notes include the ZIP's SHA-256 digest.
+Extract the **entire** `EasyKeepFocus-v1.5.0-win64.zip` archive, then run `EasyKeepFocus.exe` from the extracted app folder. Keep the EXE and `_internal` folder together. No Python installation is required. The release notes include the ZIP's SHA-256 digest.
 
 ## Updating and compatibility
 

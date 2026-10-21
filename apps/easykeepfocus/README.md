@@ -4,9 +4,9 @@ A lightweight Windows utility that keeps your system active when idle by simulat
 
 ## Download
 
-Get the latest Windows 64-bit version from [Releases](https://github.com/YinHang2515/easy-apps-releases/releases/tag/v1.4.2).
+Get the latest Windows 64-bit version from [Releases](https://github.com/YinHang2515/easy-apps-releases/releases/tag/easykeepfocus-v1.5.0).
 
-1. Download `EasyKeepFocus-v1.4.2-win64.zip`.
+1. Download `EasyKeepFocus-v1.5.0-win64.zip`.
 2. Extract the entire ZIP to a permanent location, such as `C:\Tools`.
 3. Open the extracted `EasyKeepFocus` folder and run `EasyKeepFocus.exe`.
 
@@ -17,8 +17,9 @@ The v1.4.1 single-file build could be blocked by Windows Application Control. Th
 ## Features
 
 - **Two modes:** click at the current cursor position, or type `a` and delete it.
-- **Configurable interval:** 5–300 seconds, used for both the idle threshold and action frequency.
+- **Configurable interval:** 5–300 seconds of inactivity since your latest mouse or keyboard input, required before every new action and used as the minimum time between actions.
 - **Automatic pause:** by default, stop simulated input when the lid closes, the display turns off, Windows sleeps, or the screen locks. Resume after the pause conditions clear and a full interval elapses.
+- **Media pause:** stop simulated input while Windows reports video or audio playback, including muted or background playback when reported.
 - **Keep awake with lid closed:** optional Windows system/display wake requests and a temporary **Do nothing** lid action while the main switch is ON.
 - **Daily ON/OFF schedules:** independently enable and disable the lid option at selected local times, without changing the main ON/OFF switch.
 - **Resizable window:** controls fit at the default size, and you can resize the main window.
@@ -31,6 +32,12 @@ Automatic pauses preserve your ON/OFF choice. Turning OFF while paused prevents 
 ## Usage
 
 Choose a mode and interval, then select **Turn ON**. Enable **Start with Windows** if you want EasyKeepFocus to launch at sign-in.
+
+Every new click or typed `a` requires a full interval of inactivity since your latest mouse or keyboard activity. Any new activity restarts that wait, even after the app has already sent earlier actions. In keystroke mode, the delayed Backspace is canceled if you resume interacting, switch windows, or the app pauses; this can leave the typed `a` in place.
+
+During video or audio playback, the main window shows **PAUSED** and **Details** shows **Media playing**. When playback pauses or stops and all other pause conditions clear, EasyKeepFocus waits a full interval before acting again. New mouse or keyboard activity restarts the wait. Media pauses also apply when **Keep awake with lid closed** is enabled.
+
+Playback detection depends on apps and websites reporting their media state to Windows. This includes muted and background playback when reported; players that do not report their state cannot be detected. If media monitoring is unavailable, simulated input stays paused and **Details** shows **Media monitoring unavailable**.
 
 Check **Keep awake with lid closed** to request system/display wakefulness and temporarily set both plugged-in and battery lid actions to **Do nothing**. Turning this option off, turning the main switch OFF, or exiting restores the previous lid actions. If the app stops unexpectedly, it retries restoration on the next launch. Some laptop firmware still turns off the built-in panel when the lid closes; this option cannot guarantee that physical panel stays lit. Actual sleep and session lock still pause simulated input.
 
