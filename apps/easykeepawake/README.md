@@ -14,6 +14,7 @@ A lightweight Windows utility that keeps your system active when idle by simulat
 - **Media-aware pause**: Pauses simulated input during reported playback, with an exception for NetEase CloudMusic's music sessions
 - **Keep awake with lid closed**: Optional system and display wake requests with temporary Windows lid settings, active only while the main switch is ON
 - **Resizable window**: Controls fit at the default size, and the main window can be resized
+- **Optional coffee tip**: The small coffee icon beside Details opens the Stripe support page in your browser
 - **Compact details**: Open **Details** for status, lid mode, idle time, and action count
 - **Start with Windows**: Optional launch at sign-in, minimized to the tray, with your saved ON/OFF state, mode, and interval
 - **Persistent settings**: Config saved to `%APPDATA%/FocusKeeper/config.json`
@@ -23,13 +24,13 @@ A lightweight Windows utility that keeps your system active when idle by simulat
 
 Visit the [EasyKeepAwake website](https://mango-forest-003c80100.4.azurestaticapps.net) for the latest verified download:
 
-1. Download [EasyKeepAwake-v1.5.3-win64.zip](https://mango-forest-003c80100.4.azurestaticapps.net/downloads/EasyKeepAwake-v1.5.3-win64.zip)
+1. Download [EasyKeepAwake-v1.5.4-win64.zip](https://mango-forest-003c80100.4.azurestaticapps.net/downloads/EasyKeepAwake-v1.5.4-win64.zip)
 2. Extract the entire ZIP to a permanent location (e.g. `C:\Tools`)
 3. Open the extracted `EasyKeepAwake` folder and run `EasyKeepAwake.exe`
 
 Keep `EasyKeepAwake.exe` and its `_internal` folder together whenever moving the app. The package retains required dependency license notices and omits the product README; usage documentation remains in this repository.
 
-The [v1.5.3 GitHub release](https://github.com/YinHang2515/easy-apps-releases/releases/tag/easykeepawake-v1.5.3) also provides the verified ZIP. Previous releases remain available in the shared download repository.
+The [v1.5.4 GitHub release](https://github.com/YinHang2515/easy-apps-releases/releases/tag/easykeepawake-v1.5.4) also provides the verified ZIP. Previous releases remain available in the shared download repository.
 
 The v1.4.1 single-file build could be blocked by Windows Application Control. This folder package remains subject to device policy; if startup is blocked, contact your device administrator to confirm an approved deployment method.
 
